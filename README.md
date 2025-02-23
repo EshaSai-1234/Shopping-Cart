@@ -45,7 +45,7 @@ class ProductListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Online ECommerce Pens Shop'),
+        title: Text('Shopping Cart'),
         actions: [
           IconButton(
             icon: Icon(Icons.shopping_cart),
@@ -167,4 +167,5 @@ class _CartScreenState extends State<CartScreen> {
     );
   }
 }
+
 
